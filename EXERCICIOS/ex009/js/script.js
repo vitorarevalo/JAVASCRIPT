@@ -22,3 +22,13 @@ console.log(obj)
 
 obj.graduacao = true
 console.log(obj)
+
+
+
+var teste = {
+    nome: "Vitor",
+    idade: 16,
+    profissao: "Programador",
+}
+
+console.log(teste)
