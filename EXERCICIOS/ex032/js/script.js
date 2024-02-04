@@ -31,3 +31,9 @@ console.log(pessoa.idade)
 pessoa.saudacao()
 var sdc = pessoa.saudacao()
 console.log("Olá " + sdc)
+
+
+
+for (i = 0; i < 10; i++) {
+    console.log("Olá")
+}
