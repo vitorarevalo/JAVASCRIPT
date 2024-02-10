@@ -1,3 +1,25 @@
+// Criando o elemento
+var el = document.createElement("h3");
+
+el.classList = "teste-classe"
+
+var texto = document.createTextNode("Testando a substituição de texto.");
+
+el.appendChild(texto);
+
+console.log(el);
+
+// Selecionar o elemento que quero substituir
+var lista = document.querySelector("#lista");
+
+var pai = lista.parentNode
+
+console.log(pai)
+
+pai.replaceChild(el, lista)
+
+
+
 // Criar um Elemento
 
 var el = document.createElement("h3");
