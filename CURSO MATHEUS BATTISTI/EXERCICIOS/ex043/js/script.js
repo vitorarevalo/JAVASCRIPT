@@ -1,4 +1,4 @@
-function exibir(num){
+function exibir(num) {
     console.log("A operação resultou em " + num)
 }
 
@@ -12,6 +12,5 @@ function mult(a, b, cb) {
     cb(mult)
 }
 
-
-soma(2, 5, exibir)
-mult(2,5, exibir)
+soma(2, 10, exibir)
+mult(2, 20, exibir)
