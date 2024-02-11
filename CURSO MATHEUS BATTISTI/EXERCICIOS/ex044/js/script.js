@@ -6,7 +6,7 @@ setTimeout(function(){
 setTimeout(function aviso(){
     var title = document.querySelector("#title");
     title.textContent = "CUIDADO!! TEM UMA FUNÇÃO SENDO ATIVADA A CADA 10 SEGUNDOS!"
-    var novo = title.style.cssText = "color: red; background-color: #ffc0c0; font-family: Arial, Helvetica, sans-serif;"
+    title.style.cssText = "color: red; background-color: #ffc0c0; font-family: Arial, Helvetica, sans-serif;"
 }, 2000)
 
 setTimeout(function aviso2(){
